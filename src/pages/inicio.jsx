@@ -1,11 +1,21 @@
 const Inicio = () => {
     return (
         <section className="text-gray-600 body-font">
+
             <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://imgs.search.brave.com/HiEnNt7TBUjhppldvFvHJHuUesjgFTCbmAK860pFm2s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5saWNkbi5jb20v/ZG1zL2ltYWdlL0M1/NjFCQVFHelhqNHB3/NnBWcEEvY29tcGFu/eS1iYWNrZ3JvdW5k/XzEwMDAwLzAvMTU5/NDE0MzEzMzkwNi90/ZWNub2xnaWNvX25h/Y2lvbmFsX2RlX214/aWNvX2NvdmVyP2U9/MjE0NzQ4MzY0NyZ2/PWJldGEmdD1KdlRJ/OXJ4eGhnd0hGalhL/T1l1YWhpcW44c1JB/OEZmQlVrUkxMWDNu/dGtZ" alt="blog" />
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Cursos Tec</h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">La plataforma donde cualquier alumno del tec puede capacitarse gratiutamente en temas de su carrera.</p>
+
+                </div>
+                <div className="flex justify-center mb-10">
+                    <iframe
+                        className="w-full lg:w-2/3 h-64"
+                        src="https://www.youtube.com/embed/XTUV0SB_qF4"
+                        frameBorder="0"
+                        allowFullScreen
+                    ></iframe>
                 </div>
                 <div className="flex flex-wrap -m-4 text-center">
                     <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
